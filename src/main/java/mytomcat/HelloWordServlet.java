@@ -6,7 +6,7 @@ public class HelloWordServlet extends MyServlet {
 
     public void doGet(MyRequest myRequest, MyResponse myResponse) {
         try {
-            myResponse.write("hello word get git1");
+            myResponse.write("hello word get git1111");
         } catch (IOException e) {
             e.printStackTrace();
         }
