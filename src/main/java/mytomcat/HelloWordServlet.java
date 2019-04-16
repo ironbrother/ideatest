@@ -6,7 +6,7 @@ public class HelloWordServlet extends MyServlet {
 
     public void doGet(MyRequest myRequest, MyResponse myResponse) {
         try {
-            myResponse.write("hello word get");
+            myResponse.write("hello word get git");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -14,7 +14,7 @@ public class HelloWordServlet extends MyServlet {
 
     public void doPost(MyRequest myRequest, MyResponse myResponse) {
         try {
-            myResponse.write("hello word post");
+            myResponse.write("hello word post git");
         } catch (IOException e) {
             e.printStackTrace();
         }
